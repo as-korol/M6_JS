@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#consoleLog,
+#alert,
+#prompt {
+    text-align: left;
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+}
